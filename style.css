@@ -199,16 +199,16 @@ body {
 .home-imgHover {
     position: absolute;
     top: 0;
-    right: 0;
-    width: 600px;
+    right: 0px;
+    width: 900px;
     height: 100%;
-    background: #081b29;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    background: transparent;
+    transition: .5s;
 }
 
 .home-imgHover:hover {
-    opacity: 0.8;
+    background: #081b29;
+    opacity: .8;
 }
 
 /* KEYFRAMES ANIMATION */
