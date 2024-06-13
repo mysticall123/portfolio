@@ -199,16 +199,18 @@ body {
 .home-imgHover {
     position: absolute;
     top: 0;
-    right: 30px;
+    right: 0; /* Zmienione z right: 30px; */
     width: 600px;
     height: 100%;
     background: transparent;
     transition: .5s;
+    transform: translateX(-30px); /* Nowy styl */
 }
 
 .home-imgHover:hover {
     background: #081b29;
     opacity: .8;
+    transform: translateX(0); /* Przesunięcie w lewo do 0 */
 }
 
 /* KEYFRAMES ANIMATION */
